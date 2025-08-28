@@ -1,0 +1,61 @@
+# =========================
+# Python
+# =========================
+
+# Кеші та байт-код
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Віртуальні середовища
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Логи
+*.log
+
+# Результати тестів
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+*.coverage
+*.cover
+*.py,cover
+.cache
+nosetests.xml
+coverage.xml
+
+# Компільовані / тимчасові файли
+build/
+dist/
+eggs/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# IDE (PyCharm)
+.idea/
+*.iml
+
+# Локальні налаштування (не для коміту)
+*.swp
+*.swo
+
+# Файли середовищ
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook кеш
+.ipynb_checkpoints/
+
+# Моделі / великі файли (опційно)
+*.h5
+*.pkl
+*.db
